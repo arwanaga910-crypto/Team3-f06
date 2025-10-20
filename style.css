@@ -23,6 +23,206 @@ a {
   padding: 0px;
 }
 
+/* =====================================================================================start hero========================================================================== */
+.main{
+   background-image: linear-gradient(to right , #211000 30% , #2B1A0A);
+    width: 100%;
+} 
+
+.navbar{
+    background-image: linear-gradient(to right , #211000 30% , #2B1A0A);
+    box-shadow: 0 2px 8px rgb(253, 114, 114);
+
+}
+
+.container1{
+     background-image: linear-gradient(to right , #211000 30% , #2B1A0A);
+   
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    /* padding-right: 10px; */
+
+
+    
+}
+.container1 .inner-navbar{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.inner-navbar .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 100px;
+}
+.logo img{
+    height: 70px;
+    border-radius: 50%;
+}
+
+.logo h3{
+    font-size: 25px;
+    color: white;
+   
+
+}
+
+.list {
+    display: flex;
+   width: 40%;
+   justify-content: space-between;
+  
+
+}
+li{
+    list-style: none;
+    
+}
+
+li a{
+  color: #F6ede0;
+}
+
+a:link{
+    text-decoration: none;
+   
+}
+
+.list a:hover{
+   color:gray;
+   font-size: 20px;
+   border-bottom: 3px solid rgb(253, 114, 114);
+}
+.sign{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0px 10px;
+}
+.sign h4{
+    color: rgb(213, 205, 205);
+    font-size: 30px;
+    align-self: center;
+
+
+}
+.sign a i {
+
+    color: rgb(213, 205, 205);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.sign a i:hover{
+    color: black;
+    font-size: 25px;
+}
+
+ .con-main{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+ }
+
+ .con-main .text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 20px;
+    gap: 25px;
+ }
+ .con-main .text .first-text h2{
+    font-size: 70px;
+    color: white;
+    text-transform: capitalize;
+    transition: 2s ;
+ }
+.con-main .text .sec-text{
+    color: white;
+    text-transform: capitalize;
+   max-width: 56% ; 
+   font-size: 20px;
+
+
+}
+.con-main .text .btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+  
+}
+
+.text .btn .btn1{
+    display: flex;
+    background-color:#f6f6f5;
+    border: 1px solid  #fef8eb;
+    padding:10px 20px;
+     text-transform: capitalize;
+     align-items: center;
+     border-radius: 90px;
+      
+}
+.text .btn .btn1 i{
+    align-self: center;
+    padding:5px 10px;
+}
+.text .btn .btn1:hover{
+    background-color:transparent;
+    border: 1px solid  #fef8eb;
+    color: white;
+      padding:10px 20px;
+}
+.text .btn .btn1 i:hover{
+    background-color:transparent;
+    color: white;
+    padding:10px 20px;
+}
+.text .btn .btn2{
+    background-color:transparent;
+    border: 2px solid  #fef8eb;
+    color: white;
+    padding:10px 20px;
+    text-transform: capitalize;
+    border-radius: 90px;
+}
+.text .btn .btn2:hover{
+     border: 2px solid  #fef8eb;
+     background-color: rgb(253, 252, 251);
+     color: black;
+}
+
+.all-rate{
+  color: #f6f6f5;
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+
+}
+.all-rate .f-rate p{
+    align-self: center;
+}
+.coffee-img .img{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.coffee-img img{
+   
+    height: 60vh;
+    border-radius: 50%;
+    padding-left: 20px;
+}
+
+
+/* =====================================================================================end hero============================================================================ */
+
+
 
 .container{
     width: 85%;
