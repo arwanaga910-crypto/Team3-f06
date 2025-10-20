@@ -194,3 +194,104 @@ width: 75%;
   margin-top: 40px;
   margin-bottom: 30px;
 }
+
+/*start of opinions and email section*/
+/*section 5*/
+
+.Container{
+    display: flex;
+    height: 685px;
+    flex-direction: column;
+    background-color: #f6ede0;
+    margin: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*title*/
+
+.child1{
+    height: 30%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(141, 89, 25);
+}
+
+/*opinions 1*/
+
+.child2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    gap: 300px;
+}
+
+/*opinions 2*/
+
+.child3{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 300px;
+}
+
+
+/*title of email part*/
+
+.child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 89, 25);
+}
+
+
+/*email and button part*/
+
+.child5{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*email*/
+
+.child5 input{
+    height: 50px;
+    width: 300px;
+    background-color: #a35609b0;
+    padding:5px ;
+    font-weight: bold;
+    border: 3px solid rgb(123, 67, 10);
+    border-radius: 11px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.728);
+    text-align: center;
+}
+
+/*button*/
+
+.child5 .email_button{
+    padding: 5px 83px;
+    background-color:#a35609b0;
+    border: 3px solid rgb(123, 67, 10);
+    font-weight: bold;
+    height: 50px;
+    border-radius: 11px;
+    color: rgba(0, 0, 0, 0.728);
+}
+.child5 .email_button:hover{
+    background-color: #d2791fb0;
+    transition-duration: 0.5s;
+}
+/*section 5*/
+/*end of opinions and email section*/
