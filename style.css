@@ -23,6 +23,77 @@ a {
   padding: 0px;
 }
 
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+
+.about{
+    padding: 100px 0;
+ background-color: #F6EDE0;
+  }
+.about .about-img{
+float: right;
+width: 20%;
+}
+.about .about-img img{
+    border-radius: 5px;
+}
+
+.about .about-content{
+float: left;
+width: 80%;
+}
+
+.container2{
+    width: 85%;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+p{
+   font-size: 22px;
+  color: #5c4033;
+}
+.container2 .aboutcontent2 h1{
+ font-size: 35px;
+  color: rgb(116, 51, 5); 
+}
+
+.container .aboutcontent h1{
+ font-size: 35px;
+  color: rgb(116, 51, 5); 
+}
+
+.about2{
+    padding: 100px 0;
+     background-color: #F6EDE0;
+}
+.about2 .about-img{
+float: left;
+width: 20%;
+}
+.about2 .about-img img{
+    border-radius: 5px;
+}
+
+.about2 .aboutcontent2{
+float: right;
+width: 75%;
+}
+
+
 .best-selling {
   width: 100%;
   background-color: #cbaa88;
