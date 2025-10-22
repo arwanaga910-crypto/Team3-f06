@@ -23,7 +23,7 @@ a {
   padding: 0px;
 }
 
-/* =====================================================================================start hero========================================================================== */
+/* ===================================================start hero========================================================================== */
 .main{
    background-image: linear-gradient(to right , #211000 30% , #2B1A0A);
     width: 100%;
@@ -220,9 +220,9 @@ a:link{
 }
 
 
-/* =====================================================================================end hero============================================================================ */
+/* ======================================end hero============================================================================ */
 
-
+/* start section2,3 */
 
 .container{
     width: 85%;
@@ -293,6 +293,9 @@ float: right;
 width: 75%;
 }
 
+/* end section2,3 */
+
+/* start section4 */
 
 .best-selling {
   width: 100%;
@@ -395,9 +398,10 @@ width: 75%;
   margin-bottom: 30px;
 }
 
-/*start of opinions and email section*/
-/*section 5*/
+/* end section4 */
 
+/*section 5*/
+/*start of opinions and email section*/
 .Container{
     display: flex;
     height: 685px;
@@ -493,8 +497,10 @@ width: 75%;
     background-color: #d2791fb0;
     transition-duration: 0.5s;
 }
-/*section 5*/
 /*end of opinions and email section*/
+
+/*section 5*/
+
 /* ============================ Last Section ============================ */
 .footer-container {
   display: grid;
